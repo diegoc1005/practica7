@@ -1,0 +1,22 @@
+/* Córdova García Diego
+ejercicio 1 
+Programa para validar si a es mayor a b. */
+
+#include <stdio.h>
+
+void main ()
+{
+   int a, b;
+   
+   printf("Dame un número: ");
+   scanf("%i",&a);
+   printf("Dame otro número: ");
+   scanf("%i",&b);
+   
+   if(a > b)
+   {
+       printf("a es mayor que b \n");
+   }
+   
+   printf("fin del programa \n");
+}
