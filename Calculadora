@@ -1,0 +1,25 @@
+/* Córdova García Diego
+ejercicio 3
+Programar calculadora*/
+
+#include <stdio.h>
+#include <math.h>
+
+void main ()
+{
+   int op, num1, num2, res;
+   
+   do
+   {
+       printf("Menu: \n");
+        printf("Escoge una opción. \n");
+        printf("1.- Suma\n");
+        printf("2.- Resta\n");
+        printf("3.- Multiplicación\n");
+        printf("4.- Division\n");
+        printf("5.- Raiz Cuadrada\n");
+        printf("6.- Potencia\n");
+        printf("0. Salida-\n");
+   
+   
+}
