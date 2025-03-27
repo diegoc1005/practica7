@@ -1,0 +1,22 @@
+/* Córdova García Diego
+ejercicio 2 
+Programa que valida que un número sea par o impar */
+
+#include <stdio.h>
+
+void main ()
+{
+   int num;
+   
+   printf("Dame un número: ");
+   scanf("%i",&num);
+  
+   if(num % 2 == 0)
+   {
+       printf("El número es par\n");
+   }
+   else
+   {
+   printf("El número es impar\n");
+   }
+}
